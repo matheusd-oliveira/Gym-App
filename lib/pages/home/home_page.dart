@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gym_app/pages/home/home_widgets/home_appbar.dart';
+import 'package:gym_app/pages/home/home_widgets/home_content.dart';
 import 'package:gym_app/pages/home/home_widgets/home_drawer.dart';
 import 'package:gym_app/pages/home/home_widgets/home_fab.dart';
 
@@ -15,7 +16,7 @@ class _HomePageState extends State<HomePage> {
       appBar: getHomeAppBar(),
       drawer: getHomeDrawer(),
       floatingActionButton: getHomeFab(),
-      body: Container(),
+      body: HomePageContent(),
     );
   }
 }
