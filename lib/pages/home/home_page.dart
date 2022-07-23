@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gym_app/pages/home/home_widgets/home_appbar.dart';
 import 'package:gym_app/pages/home/home_widgets/home_drawer.dart';
+import 'package:gym_app/pages/home/home_widgets/home_fab.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -13,7 +14,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: getHomeAppBar(),
       drawer: getHomeDrawer(),
-      //floatingActionButton: getHomeFab(),
+      floatingActionButton: getHomeFab(),
       body: Container(),
     );
   }
