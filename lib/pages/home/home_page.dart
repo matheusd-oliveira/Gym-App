@@ -12,7 +12,6 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(),
       drawer: Drawer(),
       body: Container(),
-      floatingActionButton: FloatingActionButton(),
     );
   }
 }
