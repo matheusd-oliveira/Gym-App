@@ -8,6 +8,7 @@ AppBar getHomeAppBar() {
     centerTitle: true,
     actions: [
       IconButton(
+        onPressed: () {},
         icon: Icon(
           Icons.more_vert_rounded,
           color: Colors.white,

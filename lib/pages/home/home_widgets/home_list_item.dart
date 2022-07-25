@@ -29,7 +29,7 @@ class _HomeListItemState extends State<HomeListItem> {
             ),
           ),
           Container(
-            height: 30,
+            height: 40,
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.only(
@@ -59,7 +59,13 @@ class _HomeListItemState extends State<HomeListItem> {
                       ),
                     ],
                   ),
-                  Icon(Icons.delete, color: Colors.red),
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(
+                      Icons.delete,
+                      color: Colors.red,
+                    ),
+                  ),
                 ],
               ),
             ),
